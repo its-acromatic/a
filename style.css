@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+
+body {
+    background-color: #121121;
+    color: #aaaaaa;
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 70%;
+    padding: 20px;
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    font-family: 'Rubik Vinyl', cursive;
+    color: #3328d1;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.intro, .tagline, .description {
+    margin: 5px 0;
+}
+
+a, a:active, a:visited {
+    color: #2869d1;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin: 20px 0;
+}
